@@ -3,15 +3,15 @@
 **Project assignment:** DA3 – Deep Learning & Generative AI  
 **Project type:** Academic prototype  
 **Document domain:** GDPR and administrative fines  
-**Status:** Local application and Docker build run successfully; public deployment is pending.
+**Status:** Local application and Docker build run successfully; public deployment is done(model functional services need to update ).
 
 ---
 
 ## 1. Executive summary
 
-LexiSyncAI is a legal-document question-answering prototype designed to answer questions from a small collection of public legal PDFs. It combines document parsing, section-aware chunking, hybrid information retrieval, cross-encoder reranking, and locally hosted language generation.
+LexiSyncAI is a legal document query answering prototype designed to answer relative questions from a small collection of public legal PDFs. It combines document parsing, section aware chunking, hybrid information retrieval, cross encoder reranking, and locally hosted language generation.
 
-The system is designed to ground its answers in retrieved source passages. It displays document and PDF-page citations and can abstain when the available evidence is insufficient. The project also evaluates retrieval and answer behavior on a held-out question set, including questions that the source documents cannot answer.
+The system is designed to ground its answers in retrieved source passages. It displays document and PDF page citations and can abstain when the available evidence is insufficient. The project also evaluates retrieval and answer behavior on a held-out question set, including questions that the source documents cannot answer.
 
 The prototype uses the official GDPR Regulation and the European Data Protection Board's Guidelines 04/2022 on the calculation of administrative fines. It is an academic demonstration, not a substitute for legal research or professional advice.
 
@@ -31,7 +31,7 @@ LexiSyncAI implements and evaluates these capabilities on a focused GDPR documen
 
 - Ingest public legal PDFs and extract page-level text.
 - Detect pages with unusually little extractable text for manual review or OCR fallback.
-- Create section-aware chunks that preserve legal structure and page metadata.
+- Create section aware chunks that preserve legal structure and page metadata.
 - Compare BM25, dense, hybrid, and reranked retrieval.
 - Generate answers from retrieved evidence using a local language model.
 - Display citations with the source PDF, page number, and section when available.
@@ -157,9 +157,9 @@ Six tables were detected in the EDPB guidelines PDF during the extraction experi
 
 A page-region citation demonstration was created and saved as `data/evaluation/bbox_citation_demo.png`. It illustrates how a citation can point to a region on a PDF page. A formal region-level citation precision score was not reported.
 
-### Multi-document cross-referencing
+### Public Deployment
 
-The held-out set includes a question about how the GDPR and EDPB guidance address concurrent infringements. This tests retrieval across the GDPR and the EDPB guidelines, rather than relying on a single source document.
+we used streamlit.app to deploy it publicly but model services are unclaimed due payment bill by Ollama API key.
 
 ## 9. Repository structure
 
