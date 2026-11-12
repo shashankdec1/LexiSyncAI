@@ -1,0 +1,145 @@
+question_id,method,k,page_recall
+T01,BM25,3,0.5
+T01,BM25,5,0.5
+T01,BM25,10,0.5
+T01,Dense,3,0.0
+T01,Dense,5,0.5
+T01,Dense,10,0.5
+T01,Hybrid RRF,3,0.5
+T01,Hybrid RRF,5,0.5
+T01,Hybrid RRF,10,0.5
+T01,Hybrid + reranker,3,0.5
+T01,Hybrid + reranker,5,0.5
+T01,Hybrid + reranker,10,0.5
+T02,BM25,3,1.0
+T02,BM25,5,1.0
+T02,BM25,10,1.0
+T02,Dense,3,1.0
+T02,Dense,5,1.0
+T02,Dense,10,1.0
+T02,Hybrid RRF,3,1.0
+T02,Hybrid RRF,5,1.0
+T02,Hybrid RRF,10,1.0
+T02,Hybrid + reranker,3,1.0
+T02,Hybrid + reranker,5,1.0
+T02,Hybrid + reranker,10,1.0
+T03,BM25,3,0.5
+T03,BM25,5,0.5
+T03,BM25,10,1.0
+T03,Dense,3,1.0
+T03,Dense,5,1.0
+T03,Dense,10,1.0
+T03,Hybrid RRF,3,0.5
+T03,Hybrid RRF,5,0.5
+T03,Hybrid RRF,10,1.0
+T03,Hybrid + reranker,3,1.0
+T03,Hybrid + reranker,5,1.0
+T03,Hybrid + reranker,10,1.0
+T04,BM25,3,0.5
+T04,BM25,5,0.5
+T04,BM25,10,0.5
+T04,Dense,3,0.5
+T04,Dense,5,0.5
+T04,Dense,10,0.5
+T04,Hybrid RRF,3,0.0
+T04,Hybrid RRF,5,0.0
+T04,Hybrid RRF,10,1.0
+T04,Hybrid + reranker,3,0.5
+T04,Hybrid + reranker,5,0.5
+T04,Hybrid + reranker,10,1.0
+T05,BM25,3,1.0
+T05,BM25,5,1.0
+T05,BM25,10,1.0
+T05,Dense,3,1.0
+T05,Dense,5,1.0
+T05,Dense,10,1.0
+T05,Hybrid RRF,3,1.0
+T05,Hybrid RRF,5,1.0
+T05,Hybrid RRF,10,1.0
+T05,Hybrid + reranker,3,1.0
+T05,Hybrid + reranker,5,1.0
+T05,Hybrid + reranker,10,1.0
+T06,BM25,3,0.5
+T06,BM25,5,0.5
+T06,BM25,10,0.5
+T06,Dense,3,0.5
+T06,Dense,5,0.5
+T06,Dense,10,0.5
+T06,Hybrid RRF,3,0.5
+T06,Hybrid RRF,5,0.5
+T06,Hybrid RRF,10,0.5
+T06,Hybrid + reranker,3,0.5
+T06,Hybrid + reranker,5,0.5
+T06,Hybrid + reranker,10,0.5
+T07,BM25,3,0.0
+T07,BM25,5,0.0
+T07,BM25,10,0.0
+T07,Dense,3,0.0
+T07,Dense,5,0.0
+T07,Dense,10,0.0
+T07,Hybrid RRF,3,0.0
+T07,Hybrid RRF,5,0.0
+T07,Hybrid RRF,10,0.0
+T07,Hybrid + reranker,3,0.0
+T07,Hybrid + reranker,5,0.0
+T07,Hybrid + reranker,10,0.0
+T08,BM25,3,0.0
+T08,BM25,5,0.0
+T08,BM25,10,0.0
+T08,Dense,3,0.0
+T08,Dense,5,0.0
+T08,Dense,10,0.0
+T08,Hybrid RRF,3,0.0
+T08,Hybrid RRF,5,0.0
+T08,Hybrid RRF,10,0.0
+T08,Hybrid + reranker,3,0.0
+T08,Hybrid + reranker,5,0.0
+T08,Hybrid + reranker,10,0.0
+T09,BM25,3,0.0
+T09,BM25,5,1.0
+T09,BM25,10,1.0
+T09,Dense,3,0.0
+T09,Dense,5,0.0
+T09,Dense,10,0.0
+T09,Hybrid RRF,3,0.0
+T09,Hybrid RRF,5,0.0
+T09,Hybrid RRF,10,0.0
+T09,Hybrid + reranker,3,0.0
+T09,Hybrid + reranker,5,1.0
+T09,Hybrid + reranker,10,1.0
+T10,BM25,3,0.0
+T10,BM25,5,0.0
+T10,BM25,10,0.2
+T10,Dense,3,0.2
+T10,Dense,5,0.4
+T10,Dense,10,0.4
+T10,Hybrid RRF,3,0.2
+T10,Hybrid RRF,5,0.2
+T10,Hybrid RRF,10,0.4
+T10,Hybrid + reranker,3,0.2
+T10,Hybrid + reranker,5,0.2
+T10,Hybrid + reranker,10,0.2
+T11,BM25,3,0.0
+T11,BM25,5,0.0
+T11,BM25,10,0.25
+T11,Dense,3,0.25
+T11,Dense,5,0.25
+T11,Dense,10,0.25
+T11,Hybrid RRF,3,0.25
+T11,Hybrid RRF,5,0.25
+T11,Hybrid RRF,10,0.25
+T11,Hybrid + reranker,3,0.0
+T11,Hybrid + reranker,5,0.0
+T11,Hybrid + reranker,10,0.25
+T12,BM25,3,0.3333333333333333
+T12,BM25,5,0.3333333333333333
+T12,BM25,10,0.6666666666666666
+T12,Dense,3,0.0
+T12,Dense,5,0.0
+T12,Dense,10,0.3333333333333333
+T12,Hybrid RRF,3,0.3333333333333333
+T12,Hybrid RRF,5,0.3333333333333333
+T12,Hybrid RRF,10,0.3333333333333333
+T12,Hybrid + reranker,3,0.3333333333333333
+T12,Hybrid + reranker,5,0.6666666666666666
+T12,Hybrid + reranker,10,0.6666666666666666
